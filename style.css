@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f6f7f9;
+}
+header {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 999;
+  height: 124px;
+  align-items: center;
+}
+.header-container {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.logo-serchbar a {
+  margin-top: 40px;
+}
+.searchBar {
+  width: 492px;
+  height: 44px;
+  margin: 32px 0px 0px 64px;
+}
+.header-container ul li {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+.logo-serchbar {
+  display: flex;
+}
+
+nav {
+  display: flex;
+  margin-top: 40px;
+}
+.NotificationContainer {
+  margin-right: 30px;
+}
+.NotificationBell {
+  position: absolute;
+}
+.NotificationMark {
+  position: relative;
+  top: 2px;
+  left: 32px;
+  width: 11px;
+  height: 11px;
+}
