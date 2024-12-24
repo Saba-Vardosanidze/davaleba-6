@@ -8,29 +8,77 @@
   </head>
   <body>
     <header>
-      <div class="header-container">
-        <div class="logo-serchbar">
-          <a href="index.html"><img src="img/Logo.svg" alt="Logo" /></a>
-          <img class="searchBar" src="img/Search.png" alt="Search" />
+      <div class="main-container">
+        <div class="logo-search-container">
+          <div class="logo-container">
+            <a href="index.html"><img src="img/Logo.svg" alt="Logo" /></a>
+          </div>
+          <div class="Search-main-container">
+            <input type="search" placeholder="Search something here" />
+            <img class="search-icon" src="img/search-normal.svg" alt="Search" />
+            <svg
+              class="x-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M17.3 18.7a1 1 0 0 0 1.4-1.4L13.42 12l5.3-5.3a1 1 0 0 0-1.42-1.4L12 10.58l-5.3-5.3a1 1 0 0 0-1.4 1.42L10.58 12l-5.3 5.3a1 1 0 1 0 1.42 1.4L12 13.42l5.3 5.3Z"
+              ></path>
+            </svg>
+            <img class="filter-icon" src="img/filter.svg" alt="filter" />
+          </div>
         </div>
-        <nav>
-          <ul>
-            <li>
-              <a href="#"><img src="img/hearth icon.svg" alt="Like" /></a>
-              <div class="NotificationContainer">
-                <a href="#"
-                  ><img
-                    class="NotificationBell"
-                    src="img/Notification.svg"
-                    alt="Notification"
-                /></a>
-                <img class="NotificationMark" src="img/Notif.png" alt="Notif" />
+        <div class="header-right-side-settings">
+          <div>
+            <ul>
+              <div class="list-container">
+                <li>
+                  <button>
+                    <img
+                      class="navigation-img"
+                      src="img/heart.svg"
+                      alt="heart"
+                    />
+                  </button>
+                </li>
               </div>
-              <a href="#"><img src="img/Settings.svg" alt="Settings" /></a>
-              <a href="#"><img src="img/Profil.svg" alt="Profil" /></a>
-            </li>
-          </ul>
-        </nav>
+              <div class="list-container notification-bell">
+                <li>
+                  <button>
+                    <img
+                      class="navigation-img"
+                      src="img/notification.svg"
+                      alt="notification"
+                    />
+                  </button>
+                </li>
+                <div class="notification-red-signify">
+                  <img src="img/Notif.svg" alt="notification" />
+                </div>
+              </div>
+              <div class="list-container">
+                <li>
+                  <button>
+                    <img
+                      class="settings-img"
+                      src="img/Vector.svg"
+                      alt="settings"
+                    />
+                  </button>
+                </li>
+              </div>
+              <div>
+                <li>
+                  <button>
+                    <img src="img/Image.svg" alt="profile" />
+                  </button>
+                </li>
+              </div>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
   </body>
